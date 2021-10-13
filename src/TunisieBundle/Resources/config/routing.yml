@@ -1,0 +1,12 @@
+tunisie_homepage:
+    path:     /
+    defaults: { _controller: TunisieBundle:Default:index }
+tunisie_gallerie:
+    path:     /gallerie
+    defaults: { _controller: TunisieBundle:Default:gallery }
+tunisie_map:
+    path:     /map
+    defaults: { _controller: TunisieBundle:Default:map }
+tunisie_mapD:
+    path:     /mapD
+    defaults: { _controller: TunisieBundle:Default:mapDetail }
